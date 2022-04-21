@@ -1,0 +1,135 @@
+A user can browse internet from
+	Laptop / Desktop
+	Mobile Phone
+	Tables
+	Devise like a watch
+
+
+	Screen size
+	Hardware is differnt (RAM / Cache etc..)
+	Source of internet is different
+	Habbits (imageing watching a video on phne)
+		
+
+	To meet all this requirements, we have been introducted to 
+		Client Centric development
+
+	and we have a small problem here
+
+	Client device, understands only 3 languages
+		HTML, CSS and JS
+		
+		HTML is preety old, same with CSS
+		JS was not OOPS based (everything is missing here)
+			Thus improvement is here
+		W3C gave us HTML5 (awsome)
+		W3C also gave us CSS3 (more beautiful) 
+			Bth HTML5 and CSS3 removed the dependency on thirdparty, plugins etc..
+		W3C and ECMA together gave us ES2015, which is OOPS based JS
+			This was a happy moment, however, ES was not that simple, as the developed were from server side
+				they were from C#, C++, Java etc,
+			ES was all about function
+
+		Thus Microsoft took an initiative, took all the standards of ES2015-ES6 - as it was open source
+			created compilers, classes, keywords, modules lots of things, 
+			named it as Typescript, which is simlar to C# or Java
+
+			Typescript is now used in React as well as Angular
+
+
+
+			Introduction to react
+
+			What is React - React is Client Side Development Library, for UI 
+					Created and managed by (Meta-Facebook)
+
+					It runs on Node server by google for development and production 
+
+					It can work with server side as well, ASP.net, Java, etc...
+
+					It used Component based development 
+					Compoennt = HTML + CSS + JS
+
+					2 Approach for development of component	
+						a. For JS developers - Function Based Component 
+						b. For C#,Java developers - Class based component
+				
+
+	----------------------------------------------------------------------------------
+			a. NodeJS - www.nodejs.org
+			b. npm (Node package manager) - comes with node
+			c. create-react-app package from npm
+			d. VS Code
+			
+
+
+			node --version
+			npm --version
+			npm install create-react-app -g
+			create-react-app firstreact
+
+			after the app is created, delete node_module folder (or move it somehwere)
+				give the folder to production alng iwth package.json
+					they need to fire
+
+			npm install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
