@@ -1,0 +1,24 @@
+props, here data can flow to childresn
+	props are immutable,
+
+	1.  they becme readonly
+	2.  if the main value changes in parent, changes will not reflect in children 
+
+	use state instead 
+
+		this.state = {
+				firstName:'Nikhil'
+
+			    }
+	1. When you have a value in state, and u wish to change it with a another function,(something like click of a button)
+		u have to use setState
+		
+ 		 changeName()
+ 		 {
+  		  // this.state.firstName = "Nikita";
+		  this.setState({firstName:'Nikita Sharam'});
+	         }
+
+	2. whn u use setState in a function, u have to bind it, in the constructor, to make changes to the state
+		// this.changeName = this.changeName.bind(this);
+		
