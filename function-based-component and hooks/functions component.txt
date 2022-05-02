@@ -1,0 +1,68 @@
+Hooks are virtual dom function, which cordinate data, functions and events for you 
+they are used only function based components
+Hooks were added in react 16.3 as beta, in 16.8 it was made official
+
+useState hook- first hook
+
+	
+problem with State -
+	1. to make a change to a state, we had setState function, this was used by developers in any function
+		state = [
+				firstname:'Nikhil',
+				qualifiction: {hightest:'MCA'
+						certifications:['.net','Azure','DevOps','ORM','OCM']
+					     },
+						clientProfile:[
+				{clientId:101,'RBS','projectType:'Banking','Duration:'3 years'},
+				{clientId:101,'Indian Navy','projectType:'Cargo','Duration:'2 years'}
+							  ]
+			];
+	
+	2. 
+	chnageName()
+	{
+		this.setState(...); ---this isearching ur property from the state, states are goign to be heavy
+
+		u can change anything in this function, state is so open and free
+	}
+		
+
+		we will also need to bind change name, which is spgati witning VM
+
+---------------------------
+		instead they changed the architecture, 
+
+
+		useState
+		useEffect - apply side for the component
+
+
+
+
+		1. Hooks can be used only with React Function based component
+		2. Hooks can be called at the top level of the componet
+		3. Hooks cannot be conditional
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

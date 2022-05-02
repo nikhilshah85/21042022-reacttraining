@@ -1,0 +1,8 @@
+function based, component
+
+do not use this keyword
+no contructor
+excessive use of const for variables/propery and function 
+use of fat arror function
+use of spread operator
+event for HTML can also have a call backfunction 
